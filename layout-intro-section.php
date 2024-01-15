@@ -10,10 +10,11 @@
                 </div>
 
                 <div class="end-content">
-
+ 
                     <a class="open-mobile-menu">
                         <i class="fa fa-bars"></i>
                     </a>
+
 
                 </div>
 

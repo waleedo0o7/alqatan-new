@@ -78,6 +78,14 @@ body {
     }
 }
 
+.rounded {
+    border-radius: 15px !important;
+}
+
+.end-content {
+    margin-inline-start: 15px;
+}
+
 .social-media-links-color-primary {
     &.links-lg {
         .link {
@@ -266,7 +274,7 @@ body {
     position: relative;
     .end-btn {
         position: absolute;
-        left: 0;
+        right: 0;
     }
 }
 
@@ -462,8 +470,8 @@ html[dir="rtl"] {
 
     .title-with-end-btn {
         .end-btn {
-            left: unset;
-            right: 0;
+            right: unset;
+            left: 0;
         }
     }
 
@@ -473,4 +481,5 @@ html[dir="rtl"] {
             left: 0;
         }
     }
+ 
 }

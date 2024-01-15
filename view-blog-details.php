@@ -15,9 +15,27 @@
         <div class="row mb-3">
 
             <div class="col-md-8 m-auto">
-                <div class="co-image">
-                    <img src="assets/images/blog.jpg" class="img-fluid image">
+
+
+                <div class="co-image mb-3">
+                    <img src="assets/images/blog.jpg" class="img-fluid rounded image">
                 </div>
+
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="lead"> شارك المقالة </p>
+                    <div class="co-meta mb-4">
+                        <ul class="d-flex social-media-links reset-ul">
+                            <li class="ms-2"> <a href="#" class="link facebook"> <i class="fab  fa-facebook-f"></i> </a>
+                            </li>
+                            <li class="ms-2"> <a href="#" class="link twitter"> <i class="fab  fa-twitter"></i> </a> </li>
+                            <li class="ms-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-whatsapp"></i> </a> </li>
+                            <li class="ms-2"> <a href="#" class="link telegram"> <i class="fa  fa-paper-plane"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
 
         </div>

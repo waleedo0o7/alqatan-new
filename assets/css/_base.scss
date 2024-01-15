@@ -160,6 +160,19 @@ h6 {
     }
 }
 
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle{
+    color: var(--color-primary-dark);
+    background-color: #fff;
+    border-color: var(--color-primary-dark);
+
+}
+
+
+ 
+
+
 .btn-secondary {
     color: #fff;
     background-color: var(--color-secondary);
@@ -171,10 +184,13 @@ h6 {
     }
 }
 
+
 .btn:focus,
 .btn.focus {
     box-shadow: none !important;
 }
+
+
 
 .btn-action {
     width: 40px;
@@ -279,6 +295,10 @@ h6 {
 
 .form-control {
     border-radius: 9px;
+    &:focus {
+        box-shadow: none !important;
+        border-color: var(--color-primary);
+    }
 }
 
 .input-with-submit-button {
@@ -291,68 +311,64 @@ h6 {
     }
 }
 
-
-
 .loading-container {
     background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column !important;
-  
+
     svg {
-      width: 3.5em;
-      transform-origin: center;
-      animation: rotate4 2s linear infinite;
-  
-      &.white {
-        circle {
-          stroke: hsl(0, 0%, 100%);
-        }
-      }
-  
-      &.sm {
-        width: 2em;
-      }
-      &.md {
         width: 3.5em;
-      }
-      &.lg {
-        width: 5em;
-      }
+        transform-origin: center;
+        animation: rotate4 2s linear infinite;
+
+        &.white {
+            circle {
+                stroke: hsl(0, 0%, 100%);
+            }
+        }
+
+        &.sm {
+            width: 2em;
+        }
+        &.md {
+            width: 3.5em;
+        }
+        &.lg {
+            width: 5em;
+        }
     }
-  
+
     circle {
-      fill: none;
-      stroke:  var(--color-primary);
-      stroke-width: 2;
-      stroke-dasharray: 1, 200;
-      stroke-dashoffset: 0;
-      stroke-linecap: round;
-      animation: dash4 1.5s ease-in-out infinite;
-    }
-  
-    @keyframes rotate4 {
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-  
-    @keyframes dash4 {
-      0% {
+        fill: none;
+        stroke: var(--color-primary);
+        stroke-width: 2;
         stroke-dasharray: 1, 200;
         stroke-dashoffset: 0;
-      }
-  
-      50% {
-        stroke-dasharray: 90, 200;
-        stroke-dashoffset: -35px;
-      }
-  
-      100% {
-        stroke-dashoffset: -125px;
-      }
+        stroke-linecap: round;
+        animation: dash4 1.5s ease-in-out infinite;
     }
-  }
 
-  
+    @keyframes rotate4 {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes dash4 {
+        0% {
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+        }
+
+        50% {
+            stroke-dasharray: 90, 200;
+            stroke-dashoffset: -35px;
+        }
+
+        100% {
+            stroke-dashoffset: -125px;
+        }
+    }
+}

@@ -157,6 +157,14 @@ h6 {
   border-color: var(--color-primary-dark);
 }
 
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: var(--color-primary-dark);
+  background-color: #fff;
+  border-color: var(--color-primary-dark);
+}
+
 .btn-secondary {
   color: #fff;
   background-color: var(--color-secondary);
@@ -267,6 +275,10 @@ h6 {
 
 .form-control {
   border-radius: 9px;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: var(--color-primary);
 }
 
 .input-with-submit-button {
@@ -460,6 +472,14 @@ body {
   background: #3fa8f4;
 }
 
+.rounded {
+  border-radius: 15px !important;
+}
+
+.end-content {
+  margin-inline-start: 15px;
+}
+
 .social-media-links-color-primary.links-lg .link {
   width: 45px;
   height: 45px;
@@ -623,7 +643,7 @@ body {
 }
 .title-with-end-btn .end-btn {
   position: absolute;
-  left: 0;
+  right: 0;
 }
 
 .co-views-and-share {
@@ -787,8 +807,8 @@ html[dir=rtl] .co-swiper-slider.arrows-down .swiper-button-next {
   transform: rotate(180deg);
 }
 html[dir=rtl] .title-with-end-btn .end-btn {
-  left: unset;
-  right: 0;
+  right: unset;
+  left: 0;
 }
 html[dir=rtl] .input-with-submit-button .submit-btn {
   right: unset;
