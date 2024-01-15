@@ -1174,6 +1174,13 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   .co-sound-card .co-actions {
     width: 100%;
   }
+  .title-with-end-btn {
+    justify-content: space-between;
+  }
+  .title-with-end-btn .end-btn {
+    position: relative;
+    right: unset;
+  }
   .footer {
     background-size: auto 30%;
     background-repeat: repeat-y, repeat-y;

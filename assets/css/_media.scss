@@ -68,7 +68,6 @@
         .co-image {
             width: 100%;
         }
-
     }
 
     .co-swiper-slider.arrows-lg-transparent {
@@ -116,10 +115,18 @@
         }
     }
 
-    .co-sound-card{
+    .co-sound-card {
         flex-wrap: wrap;
         .co-actions {
             width: 100%;
+        }
+    }
+
+    .title-with-end-btn {
+        justify-content: space-between;
+        .end-btn {
+            position: relative;
+            right: unset;
         }
     }
 
