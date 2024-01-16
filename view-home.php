@@ -404,9 +404,125 @@
 
                         <div class="swiper-slide">
                             <div class="swiper-slide-content">
-                                <?php @include "./shared-html/gallery-in-slider-card.html"; ?>
+
+
+
+                                <div class="co-gallery-card-images">
+
+                                    <div class="co-images">
+
+                                        <a data-fancybox="fancy-gallery-2" href="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-01.jpg">
+
+                                        </a>
+
+
+                                        <a data-fancybox="fancy-gallery-2" href="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-01.jpg">
+
+                                        </a>
+
+
+
+                                        <a data-fancybox="fancy-gallery-2" href="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-01.jpg">
+
+                                        </a>
+
+
+
+                                        <a data-fancybox="fancy-gallery-2" href="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-01.jpg">
+
+                                        </a>
+
+
+
+                                        <a data-fancybox="fancy-gallery-2" href="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-01.jpg">
+
+                                        </a>
+
+
+
+                                        <a data-fancybox="fancy-gallery-2" href="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-01.jpg">
+
+                                        </a>
+
+
+
+                                        <a data-fancybox="fancy-gallery-2" href="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-01.jpg">
+
+                                        </a>
+
+
+
+                                        <a data-fancybox="fancy-gallery-2" href="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-01.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-01.jpg">
+
+                                        </a>
+
+
+
+
+
+
+
+
+                                    </div>
+
+                                    <h3 class="text-center color-primary"> لقاءات </h3>
+
+                                </div><!-- gallery-card -->
+
+
+
                             </div> <!-- swiper-slide-content -->
                         </div> <!-- swiper-slide -->
+
+
                         <div class="swiper-slide">
                             <div class="swiper-slide-content">
                                 <?php @include "./shared-html/gallery-in-slider-card.html"; ?>

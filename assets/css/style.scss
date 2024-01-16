@@ -27,6 +27,13 @@
         position: relative;
         margin: auto;
         padding: 20px;
+        a{
+            display: none;
+            &:first-child{
+                display: block;
+            }
+        }
+
         img {
             width: 200px;
             height: 200px;

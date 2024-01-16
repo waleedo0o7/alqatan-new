@@ -839,6 +839,12 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   margin: auto;
   padding: 20px;
 }
+.co-gallery-card-images .co-images a {
+  display: none;
+}
+.co-gallery-card-images .co-images a:first-child {
+  display: block;
+}
 .co-gallery-card-images .co-images img {
   width: 200px;
   height: 200px;
