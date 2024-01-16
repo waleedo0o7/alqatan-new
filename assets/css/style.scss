@@ -46,7 +46,14 @@
 
 .co-gallery-card {
     border: 8px solid var(--color-primary);
+    .co-images img {
+        height: 200px;
+        width: 300px;
+        object-fit: cover;
+    }
 }
+ 
+
 
 .into-section {
     position: relative;
