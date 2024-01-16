@@ -525,9 +525,49 @@
 
                         <div class="swiper-slide">
                             <div class="swiper-slide-content">
-                                <?php @include "./shared-html/gallery-in-slider-card.html"; ?>
+
+                                <div class="co-gallery-card-images">
+
+                                    <div class="co-images">
+
+                                        <a data-fancybox="fancy-gallery-3" href="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-02.jpg">
+
+                                        </a>
+
+                                        <a data-fancybox="fancy-gallery-3" href="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-02.jpg">
+
+                                        </a>
+
+                                        <a data-fancybox="fancy-gallery-3" href="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/galerry-02.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/galerry-02.jpg">
+
+                                        </a>
+
+                                    </div>
+
+                                </div><!-- gallery-card -->
+
                             </div> <!-- swiper-slide-content -->
+
                         </div> <!-- swiper-slide -->
+
                         <div class="swiper-slide">
                             <div class="swiper-slide-content">
                                 <?php @include "./shared-html/gallery-in-slider-card.html"; ?>
