@@ -162,16 +162,11 @@ h6 {
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
-.show>.btn-primary.dropdown-toggle{
+.show > .btn-primary.dropdown-toggle {
     color: var(--color-primary-dark);
     background-color: #fff;
     border-color: var(--color-primary-dark);
-
 }
-
-
- 
-
 
 .btn-secondary {
     color: #fff;
@@ -184,13 +179,10 @@ h6 {
     }
 }
 
-
 .btn:focus,
 .btn.focus {
     box-shadow: none !important;
 }
-
-
 
 .btn-action {
     width: 40px;
@@ -283,10 +275,11 @@ h6 {
     align-items: center;
     display: flex;
     .swiper-pagination-bullet {
-        width: 15px;
-        height: 15px;
+        width: 17px;
+        height: 17px;
         background: #fff;
         opacity: 1;
+        box-shadow: 0 0 5px #888;
         &.swiper-pagination-bullet-active {
             background: var(--color-primary);
         }

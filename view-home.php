@@ -48,8 +48,16 @@
                             <i class="icon icon-lg icon-title-shape-right ms-4"></i>
                         </div>
 
-                        <div class="swiper swiper-news-thumbs-slider">
 
+
+                        <div class="co-most-reads w-100"> 
+                                <?php @include "./shared-html/news-slider-card.html"; ?> 
+                                <?php @include "./shared-html/news-slider-card.html"; ?> 
+                                <?php @include "./shared-html/news-slider-card.html"; ?> 
+
+                        </div><!-- co-most-reads -->
+
+                        <div class="swiper swiper-news-thumbs-slider d-none ">
 
                             <div class="swiper-wrapper">
 
@@ -88,6 +96,12 @@
             </div><!-- co-news-slider -->
         </div>
     </section> <!-- news -->
+
+
+
+
+
+
 
     <section id="legacy" class="section py-5 bg-gray-light">
 
@@ -377,6 +391,69 @@
         </div>
 
     </section> <!-- explanations -->
+
+
+
+    <section id="quotes" class="section pb-5">
+
+        <div class="container mb-4">
+
+            <div class="section-header mb-5">
+                <i class="icon icon-title-shape-left me-4"></i>
+                <h3 class="headline">  مقولات مأثورة للشيخ   </h3>
+                <i class="icon icon-title-shape-right ms-4"></i>
+            </div> <!-- section-header -->
+
+            <div class="co-swiper-slider">
+                <div class="swiper-button-prev quotes-button-prev">
+                    <i class="icon icon-arrow-left"></i>
+                </div>
+                <div class="swiper-button-next quotes-button-next">
+                    <i class="icon icon-arrow-right"></i>
+                </div>
+
+                <div class="swiper quotes-swiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/quote-card.html"; ?>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/quote-card.html"; ?>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/quote-card.html"; ?>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/quote-card.html"; ?>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/quote-card.html"; ?>
+                            </div>
+                        </div> 
+
+
+                    </div>
+                </div>
+            </div> <!-- co-swiper-slider -->
+
+
+        </div> <!-- container -->
+
+ 
+    </section> <!-- quotes -->
+
+
+
 
     <section id="gallery" class="section bg-secondary py-5">
 

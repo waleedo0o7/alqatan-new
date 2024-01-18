@@ -34,11 +34,11 @@
 
     <div class="container">
         <ul class="d-flex social-media-links-color-primary justify-content-center links-lg reset-ul">
-            <li class="ml-2"> <a href="#" class="link facebook"> <i class="fab  fa-facebook-f"></i> </a></li>
-            <li class="ml-2"> <a href="#" class="link twitter"> <i class="fab  fa-twitter"></i> </a> </li>
-            <li class="ml-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-instagram"></i> </a> </li>
-            <li class="ml-2"> <a href="#" class="link telegram"> <i class="fa  fa-paper-plane"></i> </a></li>
+            <li class="ml-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-x-twitter"></i> </a> </li>
             <li class="ml-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-youtube"></i> </a> </li>
+            <li class="ml-2"> <a href="#" class="link facebook"> <i class="fab  fa-facebook-f"></i> </a></li>
+            <li class="ml-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-instagram"></i> </a> </li>
+            <li class="ml-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-tiktok"></i> </a> </li>
         </ul>
     </div>
 

@@ -10,6 +10,7 @@ $(function () {
 
     showMobileMenu();
     closeMobileMenu();
+    initQuotesSlider();
 });
 
 function initVisualsSlider() {
@@ -79,6 +80,30 @@ function initExplanationsSlider() {
         }
     });
 }
+
+function initQuotesSlider() { 
+    const swiper = new Swiper('.quotes-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.quotes-button-next',
+            prevEl: '.quotes-button-prev',
+        },
+        breakpoints: { 
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        }
+    });
+}
+
 
 function initPartnersSlider() {
     const swiper = new Swiper('.partners-swiper', {
