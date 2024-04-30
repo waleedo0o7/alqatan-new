@@ -34,13 +34,8 @@
 
 
         <div class="co-play-video-card mb-5">
-            <video src="assets/post.mp4" class="video-js" controls preload="auto" data-setup="{}"></video>
+            <video src="assets/videos/reels.mp4" class="video-js" controls preload="auto" data-setup="{}"></video>
         </div>
-
-
-
-
-
 
 
         <section id="related-videos" class="mb-5">

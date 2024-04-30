@@ -32,6 +32,115 @@
 
         </section> <!-- blog-list -->
 
+
+
+
+
+        <div class="co-categories">
+
+            <div class="co-one-category">
+
+                <div class="title-with-end-btn mb-3">
+                    <div class="section-header section-header-bg-secondary section-header-sm ">
+                        <i class="icon icon-title-shape-left me-4"></i>
+                        <h4 class="headline"> الفقه </h4>
+                        <i class="icon icon-title-shape-right ms-4"></i>
+                    </div>
+                    <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                </div>
+
+            </div> <!-- co-one-category -->
+
+            <div class="co-one-category">
+                <div class="title-with-end-btn mb-3">
+                    <div class="section-header section-header-bg-secondary section-header-sm ">
+                        <i class="icon icon-title-shape-left me-4"></i>
+                        <h4 class="headline"> الفقه </h4>
+                        <i class="icon icon-title-shape-right ms-4"></i>
+                    </div>
+                    <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
+                </div>
+
+
+
+                <div class="row mb-5">
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                </div>
+            </div> <!-- co-one-category -->
+
+            <div class="co-one-category">
+
+                <div class="title-with-end-btn mb-3">
+                    <div class="section-header section-header-bg-secondary section-header-sm ">
+                        <i class="icon icon-title-shape-left me-4"></i>
+                        <h4 class="headline"> الفقه </h4>
+                        <i class="icon icon-title-shape-right ms-4"></i>
+                    </div>
+                    <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/video-card.html"; ?></div>
+                </div>
+            </div> <!-- co-one-category -->
+
+
+
+
+
+            <div class="co-one-category">
+
+                <div class="title-with-end-btn mb-3">
+                    <div class="section-header section-header-bg-secondary section-header-sm ">
+                        <i class="icon icon-title-shape-left me-4"></i>
+                        <h4 class="headline"> الفقه </h4>
+                        <i class="icon icon-title-shape-right ms-4"></i>
+                    </div>
+                    <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-md-6 col-xl-4 mb-4">
+                        <?php @include "./shared-html/video-reels-card.html"; ?>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4 mb-4">
+                        <?php @include "./shared-html/video-reels-card.html"; ?>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4 mb-4">
+                        <?php @include "./shared-html/video-reels-card.html"; ?>
+                    </div>
+                </div>
+            </div> <!-- co-one-category -->
+
+
+
+        </div> <!-- co-categories -->
+
+
+
+
+
     </div>
 </main>
 

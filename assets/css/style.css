@@ -415,9 +415,18 @@ h6 {
   src: url(fonts/din-regular.ttf);
   font-weight: normal;
 }
+@font-face {
+  font-family: simplified;
+  src: url(fonts/Simplified/ArbFONTS-Simplified-Arabic.ttf);
+  font-weight: normal;
+}
 body {
   font-size: 16px;
   font-family: DIN;
+}
+
+.font-simplified {
+  font-family: simplified;
 }
 
 .fixed-position {
@@ -542,9 +551,12 @@ body {
   background: var(--color-secondary-80);
 }
 
+.co-video-card {
+  max-height: 500px;
+}
 .co-video-card .video-card {
   background-size: cover;
-  height: 180px;
+  height: 208px;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -557,6 +569,13 @@ body {
 .co-video-card .video-card * {
   position: relative;
   z-index: 1;
+}
+.co-video-card.reel .video-card {
+  height: 660px;
+}
+
+.video-js {
+  max-height: 500px;
 }
 
 .section-header {
@@ -666,6 +685,7 @@ body {
   background: var(--color-secondary);
   padding: 10px;
   color: #fff;
+  font-family: simplified;
 }
 .co-custom-taps .nav-tabs .nav-item.show .nav-link,
 .co-custom-taps .nav-tabs .nav-link.active {
@@ -727,6 +747,9 @@ body {
   font-size: 22px;
 }
 
+.co-achievements-card {
+  font-family: simplified;
+}
 .co-achievements-card .co-image img {
   width: 100%;
   height: 250px;
@@ -744,6 +767,9 @@ body {
 }
 .co-blog-card:last-child {
   border-bottom: 0px solid transparent;
+}
+.co-blog-card .co-details p {
+  font-family: simplified;
 }
 
 .co-sound-card {
