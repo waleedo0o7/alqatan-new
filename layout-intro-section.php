@@ -46,7 +46,7 @@
         <div class="container">
             <ul class="nav-menu">
 
-                <li class="menu-item"> <a href="view-home.php" class="menu-link active"> الرئيسية </a></li>
+                <li class="menu-item"> <a href="view-home.php" class="menu-link active"> الصفحة الرئيسية </a></li>
 
                 <li class="menu-item"> <a href="view-cv.php" class="menu-link"> السيرة الذاتية </a></li>
 
@@ -54,7 +54,7 @@
 
                 <li class="menu-item"> <a href="view-speechs.php" class="menu-link"> الخطب المنبرية </a></li>
 
-                <li class="menu-item"> <a href="view-lectures.php" class="menu-link"> المحاضرات </a></li>
+                <li class="menu-item"> <a href="view-lectures.php" class="menu-link"> المحاضرات والدروس </a></li>
 
                 <li class="menu-item"> <a href="view-visuals.php" class="menu-link"> مرئيات </a></li>
 
