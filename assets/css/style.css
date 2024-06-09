@@ -819,6 +819,15 @@ body {
   font-size: 18px;
   margin-bottom: 5px;
 }
+.co-sound-card .co-video-card {
+  width: 120px;
+  height: 100px;
+  margin-inline-start: 10px;
+}
+.co-sound-card .co-video-card .video-card {
+  height: 120px;
+  font-size: 24px;
+}
 
 html[dir=rtl] body {
   text-align: right;

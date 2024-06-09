@@ -8,7 +8,7 @@
 
         <div class="section-header mb-5 mt-5">
             <i class="icon icon-title-shape-left me-4"></i>
-            <h3 class="headline"> الخطب المنبرية   </h3>
+            <h3 class="headline"> الخطب المنبرية </h3>
             <i class="icon icon-title-shape-right ms-4"></i>
         </div>
 
@@ -25,14 +25,45 @@
 
 
 
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="headline"> اسم التصنيف </h4>
+            <a href="#" class="color-secondary"> مشاهدة المزيد </a>
+        </div>
+
+
+
         <div class="co-sounds">
 
-            <?php @include "./shared-html/sound-card.html"; ?>
-            <?php @include "./shared-html/sound-card.html"; ?>
-            <?php @include "./shared-html/sound-card.html"; ?>
-            <?php @include "./shared-html/sound-card.html"; ?>
+            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
+            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
+            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
+
 
         </div><!-- co-sounds -->
+
+
+
+
+
+
+
+
+
+        
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="headline"> اسم التصنيف </h4>
+            <a href="#" class="color-secondary"> مشاهدة المزيد </a>
+        </div>
+
+        <div class="co-sounds">
+
+            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
+            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
+            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
+
+        </div><!-- co-sounds -->
+
 
 
 
