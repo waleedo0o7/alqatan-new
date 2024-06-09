@@ -25,9 +25,13 @@
 
 
 
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h4 class="headline"> اسم التصنيف </h4>
-            <a href="#" class="color-secondary"> مشاهدة المزيد </a>
+        <div class="title-with-end-btn mb-3">
+            <div class="section-header section-header-bg-secondary section-header-sm ">
+                <i class="icon icon-title-shape-left me-4"></i>
+                <h4 class="headline">  اسم التصنيف  </h4>
+                <i class="icon icon-title-shape-right ms-4"></i>
+            </div>
+            <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
         </div>
 
 
@@ -49,12 +53,16 @@
 
 
 
-        
 
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h4 class="headline"> اسم التصنيف </h4>
-            <a href="#" class="color-secondary"> مشاهدة المزيد </a>
+        <div class="title-with-end-btn mb-3">
+            <div class="section-header section-header-bg-secondary section-header-sm ">
+                <i class="icon icon-title-shape-left me-4"></i>
+                <h4 class="headline">  اسم التصنيف  </h4>
+                <i class="icon icon-title-shape-right ms-4"></i>
+            </div>
+            <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
         </div>
+
 
         <div class="co-sounds">
 
