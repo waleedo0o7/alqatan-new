@@ -61,7 +61,9 @@
                 </li>
 
                 <li class="menu-item has-sub-menu">
+
                     <a href="#" class="menu-link"> مؤلفات الشيخ </a>
+
                     <ul class="submenu">
                         <li class="submenu-item">
                             <a href="view-book1.php" class="submenu-link">Book 1</a>
@@ -76,6 +78,7 @@
                             <a href="view-book2.php" class="submenu-link">Book 4</a>
                         </li>
                     </ul>
+                    
                 </li>
 
                 <li class="menu-item"> <a href="view-speechs.php" class="menu-link"> الخطب المنبرية </a></li>
