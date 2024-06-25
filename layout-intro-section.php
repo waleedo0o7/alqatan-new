@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="end-content">
- 
+
                     <a class="open-mobile-menu">
                         <i class="fa fa-bars"></i>
                     </a>
@@ -43,14 +43,40 @@
     </div>
 
     <div class="co-nav-menu">
+
         <div class="container">
+
+
+
+
+
+
+
+
+
             <ul class="nav-menu">
 
-                <li class="menu-item"> <a href="view-home.php" class="menu-link active"> الصفحة الرئيسية </a></li>
+                <li class="menu-item">
+                    <a href="view-home.php" class="menu-link active"> الصفحة الرئيسية </a>
+                </li>
 
-                <li class="menu-item"> <a href="view-cv.php" class="menu-link"> السيرة الذاتية </a></li>
-
-                <li class="menu-item"> <a href="view-books.php" class="menu-link"> مؤلفات الشيخ </a></li>
+                <li class="menu-item has-sub-menu">
+                    <a href="#" class="menu-link"> مؤلفات الشيخ </a>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="view-book1.php" class="submenu-link">Book 1</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="view-book2.php" class="submenu-link">Book 2</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="view-book2.php" class="submenu-link">Book 3</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="view-book2.php" class="submenu-link">Book 4</a>
+                        </li>
+                    </ul>
+                </li>
 
                 <li class="menu-item"> <a href="view-speechs.php" class="menu-link"> الخطب المنبرية </a></li>
 
@@ -64,8 +90,6 @@
 
                 <li class="menu-item"> <a href="view-explanations.php" class="menu-link"> شروح علمية </a></li>
 
-                <!-- <li class="menu-item"> <a href="view-kuwait.php" class="menu-link"> كويت الخير </a></li> -->
-
                 <div class="close-mobile-menu">
                     <i class="fa fa-times"></i>
                 </div>
@@ -73,6 +97,7 @@
             </ul>
 
         </div>
+
     </div> <!-- co-nav-menu -->
 
 </div><!-- into-section -->

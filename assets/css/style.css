@@ -963,6 +963,18 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   margin: 0;
   list-style: none;
 }
+.into-section .co-nav-menu .nav-menu .menu-item.has-sub-menu .menu-link:after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  height: 15px;
+  margin-top: 10px;
+  margin-inline-start: 5px;
+}
 .into-section .co-nav-menu .nav-menu a.menu-link {
   padding: 15px 16px;
   display: inline-flex;
@@ -1174,6 +1186,58 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   text-overflow: ellipsis;
   overflow: hidden;
   word-break: break-word;
+}
+
+/* Base styles for the menu */
+.nav-menu,
+.submenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu .menu-item {
+  position: relative;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #FFF;
+}
+.nav-menu a:hover {
+  background-color: var(--color-primary);
+}
+
+/* Styles for the submenu */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 999;
+  background-color: var(--color-secondary);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.368627451);
+  border-radius: 10px;
+  min-width: 180px;
+  overflow: hidden;
+}
+
+.submenu .submenu {
+  top: 0;
+  left: 100%;
+}
+
+/* Hover effects */
+.nav-menu .menu-item:hover > .submenu,
+.submenu-item:hover > .submenu {
+  display: block;
+}
+
+.menu-item a.active {
+  font-weight: bold;
+  color: var(--color-secondary);
 }
 
 .into-section .open-mobile-menu {

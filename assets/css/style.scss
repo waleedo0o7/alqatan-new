@@ -27,8 +27,10 @@
         position: relative;
         margin: auto;
         padding: 20px;
+
         a {
             display: none;
+
             &:first-child {
                 display: block;
             }
@@ -53,6 +55,7 @@
 
 .co-gallery-card {
     border: 8px solid var(--color-primary);
+
     .co-images img {
         height: 200px;
         width: 300px;
@@ -96,6 +99,7 @@
             width: 100%;
             height: 100%;
             z-index: 99;
+
             .container {
                 max-width: unset;
 
@@ -115,6 +119,25 @@
             padding: 10px 0;
             margin: 0;
             list-style: none;
+
+            .menu-item {
+                &.has-sub-menu {
+                    .menu-link {
+                        &:after {
+                            content: "\f107";
+                            font-family: "Font Awesome 5 Free";
+                            font-weight: 900;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            line-height: 0;
+                            height: 15px;
+                            margin-top: 10px;
+                            margin-inline-start: 5px;
+                        }
+                    }
+                }
+            }
 
             a.menu-link {
                 padding: 15px 16px;
@@ -144,6 +167,7 @@
         position: absolute;
         bottom: 80px;
         left: 0;
+
         .link {
             width: 50px;
             height: 50px;
@@ -185,6 +209,7 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
+
                         // background: #ff0;
                         a {
                             display: flex;
@@ -192,6 +217,7 @@
                             align-items: center;
                             height: 100%;
                             width: 100%;
+
                             //background: #0f0;
                             .zoom {
                                 display: flex;
@@ -199,6 +225,7 @@
                                 align-items: center;
                                 height: 100%;
                                 width: 100%;
+
                                 // background: #f00;
                                 img {
                                     max-height: 100%;
@@ -227,6 +254,7 @@
                     overflow: hidden;
                     border-width: 2px;
                 }
+
                 .swiper-slide-thumb-active {
                     opacity: 1;
                     border-color: var(--color-secondary);
@@ -242,6 +270,7 @@
             justify-content: flex-start;
             align-items: center;
             flex-direction: column;
+
             .headline-title {
                 background: var(--color-primary);
                 width: 100%;
@@ -276,6 +305,7 @@
         width: 90px;
         height: 90px;
         border-radius: var(--main-border-radius);
+
         img {
             width: 90px;
             height: 90px;
@@ -332,8 +362,7 @@
     flex-direction: column;
     gap: 5px;
 
-    .swiper-pagination-bullet {
-    }
+    .swiper-pagination-bullet {}
 }
 
 .blog-small-card {
@@ -342,6 +371,7 @@
     box-shadow: var(--main-box-shadow);
     overflow: hidden;
     transition: var(--main-transition);
+
     .image-wrapper {
         img {
             width: 410px;
@@ -353,6 +383,7 @@
 
     .details-wrapper {
         padding: 10px;
+
         .title {
             display: -webkit-box !important;
             -webkit-line-clamp: 1;
@@ -363,5 +394,65 @@
         }
     }
 }
+
+
+
+
+
+
+/* Base styles for the menu */
+.nav-menu,
+.submenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu .menu-item {
+    position: relative;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #FFF;
+
+    &:hover{
+        background-color:  var(--color-primary);
+    }
+}
+
+/* Styles for the submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 999;
+    background-color: var(--color-secondary);
+    box-shadow: 0 0 5px #ffffff5e;
+    border-radius: 10px;
+    min-width: 180px;
+    overflow: hidden;
+}
+
+.submenu .submenu {
+    top: 0;
+    left: 100%;
+}
+
+/* Hover effects */
+.nav-menu .menu-item:hover>.submenu,
+.submenu-item:hover>.submenu {
+    display: block;
+}
+
+.menu-item a.active {
+    font-weight: bold;
+    color: var(--color-secondary);
+}
+
+
 
 @import "_media";
