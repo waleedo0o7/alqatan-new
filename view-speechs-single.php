@@ -23,16 +23,15 @@
             </div>
         </div>
 
+
         <div class="title-with-end-btn mb-3">
             <div class="section-header section-header-bg-secondary section-header-sm ">
                 <i class="icon icon-title-shape-left me-4"></i>
                 <h4 class="headline">  اسم التصنيف  </h4>
                 <i class="icon icon-title-shape-right ms-4"></i>
             </div>
-            <a href="view-speechs-single.php" class="color-secondary end-btn"> مشاهدة المزيد </a>
+            <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
         </div>
-
-
 
         <div class="co-sounds">
 
@@ -42,35 +41,6 @@
 
 
         </div><!-- co-sounds -->
-
-
-
-
-
-
-
-
-
-
-        <div class="title-with-end-btn mb-3">
-            <div class="section-header section-header-bg-secondary section-header-sm ">
-                <i class="icon icon-title-shape-left me-4"></i>
-                <h4 class="headline">  اسم التصنيف  </h4>
-                <i class="icon icon-title-shape-right ms-4"></i>
-            </div>
-            <a href="view-speechs-single.php" class="color-secondary end-btn"> مشاهدة المزيد </a>
-        </div>
-
-
-        <div class="co-sounds">
-
-            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
-            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
-            <?php @include "./shared-html/sound-card-with-thumbnail.html"; ?>
-
-        </div><!-- co-sounds -->
-
-
 
 
     </div>
