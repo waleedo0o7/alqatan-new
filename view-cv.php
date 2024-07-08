@@ -17,7 +17,7 @@
 
             <div class="co-custom-taps">
 
-                <ul class="nav nav-tabs" role="tablist">
+                <!-- <ul class="nav nav-tabs" role="tablist">
 
                     <li class="nav-item">
                         <a class="nav-link active" id="tap1-tab" data-toggle="tab" href="#tap1" role="tab" aria-controls="tap1" aria-selected="true"> نسب الشيخ </a>
@@ -51,7 +51,61 @@
                         <a class="nav-link" id="tap3-tab" data-toggle="tab" href="#tap3" role="tab" aria-controls="tap3" aria-selected="false"> تلاميذ الشيخ </a>
                     </li>
 
+                </ul> -->
+
+
+
+                <ul class="nav nav-tabs" role="tablist">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pedigree-tab" data-toggle="tab" href="#pedigree" role="tab" aria-controls="tap1" aria-selected="true"> نسب الشيخ </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " id="upbringing_and_education-tab" data-toggle="tab" href="#upbringing_and_education" role="tab" aria-controls="tap1" aria-selected="true"> نشأته و تعليمه </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " id="biography-tab" data-toggle="tab" href="#biography" role="tab" aria-controls="tap1" aria-selected="true"> السيرة الدعوية </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " id="curriculum-tab" data-toggle="tab" href="#curriculum" role="tab" aria-controls="tap1" aria-selected="true"> منهج الشيخ </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " id="contributions-tab" data-toggle="tab" href="#contributions" role="tab" aria-controls="tap1" aria-selected="true"> إسهامات الشيخ </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " id="sheikhs_taught_the_sheikh-tab" data-toggle="tab" href="#sheikhs_taught_the_sheikh" role="tab" aria-controls="tap1" aria-selected="true"> الشيوخ الذين تتلمذ على ايديهم </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " id="compositions-tab" data-toggle="tab" href="#compositions" role="tab" aria-controls="tap1" aria-selected="true"> مؤلفاته </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " id="students-tab" data-toggle="tab" href="#students" role="tab" aria-controls="tap1" aria-selected="true"> تلاميذ الشيخ </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " id="his_death-tab" data-toggle="tab" href="#his_death" role="tab" aria-controls="tap1" aria-selected="true"> وفاه الشيخ القطان </a>
+                    </li>
+
+
                 </ul>
+
+
 
                 <div class="tab-content">
 

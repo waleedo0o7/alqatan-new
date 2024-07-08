@@ -140,7 +140,7 @@
             }
 
             a.menu-link {
-                padding: 15px 16px;
+                padding: 12px 10px;
                 display: inline-flex;
                 text-shadow: 0 0 5px #000;
                 color: #fff;
@@ -452,6 +452,13 @@
     font-weight: bold;
     color: var(--color-secondary);
 }
+
+
+
+.nav-tabs {
+    padding: 0;
+}
+
 
 
 

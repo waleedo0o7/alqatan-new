@@ -11,7 +11,19 @@ $(function () {
     showMobileMenu();
     closeMobileMenu();
     initQuotesSlider();
+
+
+
+    initFansSlider();
+
+
+
+    
 });
+
+
+
+
 
 function initVisualsSlider() {
     const swiper = new Swiper('.visuals-swiper', {
@@ -34,6 +46,37 @@ function initVisualsSlider() {
         }
     });
 }
+
+
+
+
+
+
+function initFansSlider() {
+    const swiper = new Swiper('.fans-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.fans-button-next',
+            prevEl: '.fans-button-prev',
+        },
+
+        breakpoints: { 
+            768: {
+                slidesPerView: 2, 
+            },
+            1200: {
+                slidesPerView: 3, 
+            },
+        }
+    });
+}
+
+
+
+
 
 function initMostReadsSlider() {
     const swiper = new Swiper('.most-reads-swiper', {

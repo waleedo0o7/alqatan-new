@@ -50,10 +50,10 @@
 
 
 
-                        <div class="co-most-reads w-100"> 
-                                <?php @include "./shared-html/news-slider-card.html"; ?> 
-                                <?php @include "./shared-html/news-slider-card.html"; ?> 
-                                <?php @include "./shared-html/news-slider-card.html"; ?> 
+                        <div class="co-most-reads w-100">
+                            <?php @include "./shared-html/news-slider-card.html"; ?>
+                            <?php @include "./shared-html/news-slider-card.html"; ?>
+                            <?php @include "./shared-html/news-slider-card.html"; ?>
 
                         </div><!-- co-most-reads -->
 
@@ -193,6 +193,10 @@
 
     </section> <!-- books -->
 
+
+
+
+
     <section id="visuals" class="section py-5 bg-gray-light">
 
         <div class="container mb-4">
@@ -257,6 +261,30 @@
         </div>
 
     </section> <!-- visuals -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section id="most-reads" class="section mb-5 py-5">
 
@@ -326,6 +354,23 @@
         </div>
 
     </section> <!-- most-reads -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section id="explanations" class="section pb-5">
 
@@ -400,7 +445,7 @@
 
             <div class="section-header mb-5">
                 <i class="icon icon-title-shape-left me-4"></i>
-                <h3 class="headline">  مقولات مأثورة للشيخ   </h3>
+                <h3 class="headline"> مقولات مأثورة للشيخ </h3>
                 <i class="icon icon-title-shape-right ms-4"></i>
             </div> <!-- section-header -->
 
@@ -419,27 +464,27 @@
                             <div class="swiper-slide-content ">
                                 <?php @include "./shared-html/quote-card.html"; ?>
                             </div>
-                        </div> 
+                        </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide-content ">
                                 <?php @include "./shared-html/quote-card.html"; ?>
                             </div>
-                        </div> 
+                        </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide-content ">
                                 <?php @include "./shared-html/quote-card.html"; ?>
                             </div>
-                        </div> 
+                        </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide-content ">
                                 <?php @include "./shared-html/quote-card.html"; ?>
                             </div>
-                        </div> 
+                        </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide-content ">
                                 <?php @include "./shared-html/quote-card.html"; ?>
                             </div>
-                        </div> 
+                        </div>
 
 
                     </div>
@@ -449,8 +494,95 @@
 
         </div> <!-- container -->
 
- 
+
     </section> <!-- quotes -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="fans" class="section py-5 bg-gray-light">
+
+        <div class="container mb-4">
+
+            <div class="section-header mb-5">
+                <i class="icon icon-title-shape-left me-4"></i>
+                <h3 class="headline"> احباب الشيخ </h3>
+                <i class="icon icon-title-shape-right ms-4"></i>
+            </div> <!-- section-header -->
+
+            <div class="co-swiper-slider">
+                <div class="swiper-button-prev fans-button-prev">
+                    <i class="icon icon-arrow-left"></i>
+                </div>
+                <div class="swiper-button-next fans-button-next">
+                    <i class="icon icon-arrow-right"></i>
+                </div>
+
+                <div class="swiper fans-swiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/video-card.html"; ?>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/video-card.html"; ?>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/video-card.html"; ?>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/video-card.html"; ?>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/video-card.html"; ?>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div> <!-- co-swiper-slider -->
+
+
+        </div> <!-- container -->
+
+        <div class="text-center">
+            <a href="#" class="btn btn-primary"> مشاهدة المزيد </a>
+        </div>
+
+    </section> <!-- fans -->
+
 
 
 

@@ -42,17 +42,9 @@
         </ul>
     </div>
 
-    <div class="co-nav-menu">
+    <!--  <div class="co-nav-menu">
 
         <div class="container">
-
-
-
-
-
-
-
-
 
             <ul class="nav-menu">
 
@@ -101,6 +93,60 @@
 
         </div>
 
-    </div> <!-- co-nav-menu -->
+    </div>co-nav-menu -->
+
+
+
+
+
+    <div class="co-nav-menu">
+
+        <div class="container">
+
+            <ul class="nav-menu">
+
+                <li class="menu-item"><a href="https://al-qattan.net" class="menu-link ">الصفحة الرئيسية</a></li>
+
+                <li class="menu-item has-sub-menu">
+                    <a href="https://al-qattan.net/cv" class="menu-link active">السيرة الذاتية</a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="https://al-qattan.net/media?type=sheik_lovers" class="submenu-link">أحباب الشيخ</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu-item"><a href="https://al-qattan.net/compositions" class="menu-link "> مؤلفات الشيخ </a></li>
+
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=speech" class="menu-link "> خطب منبريه</a></li>
+
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=lecture" class="menu-link "> محاضرات و دروس </a></li>
+
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=visual" class="menu-link ">مرئيات</a></li>
+
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=podcast" class="menu-link ">لقاءات إذاعية</a></li>
+
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=aqsa_pulpit" class="menu-link ">منبر الاقصى</a></li>
+
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=scientific_explanation" class="menu-link ">شروحات علميه </a></li>
+
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=post" class="menu-link ">كويت الخير </a></li>
+
+
+
+                
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=post" class="menu-link ">   أحباب الشيخ   </a></li>
+
+                
+                <div class="close-mobile-menu">
+                    <i class="fa fa-times"></i>
+                </div>
+
+            </ul>
+
+        </div>
+    </div>
+
 
 </div><!-- into-section -->

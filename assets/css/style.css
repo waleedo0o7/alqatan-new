@@ -3,6 +3,8 @@
   --color-primary-dark: #b48f41;
   --color-secondary: #002a41;
   --color-secondary-dark: #001723;
+  --color-secondary-20: #00172321;
+  --color-secondary-30: #00172340;
   --color-secondary-50: #00172385;
   --color-secondary-80: #001723b0;
   --color-gray-light: #f7f7f9;
@@ -541,14 +543,14 @@ body {
 .overlay, .co-video-card .video-card:after {
   content: "";
   position: absolute;
-  background: var(--color-secondary-50);
+  background: var(--color-secondary-20);
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
 .overlay:hover, .co-video-card .video-card:hover:after {
-  background: var(--color-secondary-80);
+  background: var(--color-secondary-30);
 }
 
 .co-video-card {
@@ -686,15 +688,23 @@ body {
   padding: 10px;
   color: #fff;
   font-family: simplified;
+  padding: 0px;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
 }
 .co-custom-taps .nav-tabs .nav-item.show .nav-link,
 .co-custom-taps .nav-tabs .nav-link.active {
   background: var(--color-secondary);
   color: #fff;
-  border-bottom-color: var(--color-secondary);
+  border-color: transparent;
 }
 .co-custom-taps .nav-tabs .nav-link {
   color: var(--color-secondary);
+}
+
+.co-custom-taps .tab-pane .col-md-7 {
+  padding: 30px;
+  font-size: 18px;
 }
 
 .footer {
@@ -976,7 +986,7 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   margin-inline-start: 5px;
 }
 .into-section .co-nav-menu .nav-menu a.menu-link {
-  padding: 15px 16px;
+  padding: 12px 10px;
   display: inline-flex;
   text-shadow: 0 0 5px #000;
   color: #fff;
@@ -1238,6 +1248,10 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
 .menu-item a.active {
   font-weight: bold;
   color: var(--color-secondary);
+}
+
+.nav-tabs {
+  padding: 0;
 }
 
 .into-section .open-mobile-menu {
