@@ -666,6 +666,7 @@ body {
 .title-with-end-btn .end-btn {
   position: absolute;
   right: 0;
+  top: 20px;
 }
 
 .co-views-and-share {
@@ -1120,19 +1121,20 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
 .co-news-details-card .co-image {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  width: 90px;
-  height: 90px;
+  align-items: flex-start;
   border-radius: var(--main-border-radius);
 }
 .co-news-details-card .co-image img {
-  width: 90px;
-  height: 90px;
+  width: 150px;
+  height: 94px;
   border-radius: var(--main-border-radius);
 }
 .co-news-details-card .co-details .title {
   line-height: 1;
   margin-bottom: 10px !important;
+}
+.co-news-details-card .co-details .date {
+  margin: 0;
 }
 
 .ltr {

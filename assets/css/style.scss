@@ -301,14 +301,12 @@
     .co-image {
         display: flex;
         justify-content: flex-start;
-        align-items: center;
-        width: 90px;
-        height: 90px;
+        align-items: flex-start;
         border-radius: var(--main-border-radius);
 
         img {
-            width: 90px;
-            height: 90px;
+            width: 150px;
+            height: 94px;
             border-radius: var(--main-border-radius);
         }
     }
@@ -317,6 +315,9 @@
         .title {
             line-height: 1;
             margin-bottom: 10px !important;
+        }
+        .date{
+            margin: 0;
         }
     }
 }

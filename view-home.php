@@ -97,12 +97,6 @@
         </div>
     </section> <!-- news -->
 
-
-
-
-
-
-
     <section id="legacy" class="section py-5 bg-gray-light">
 
         <div class="section-header mb-5">
@@ -157,11 +151,19 @@
 
     <section id="books" class="section py-5">
 
-        <div class="section-header mb-5">
-            <i class="icon icon-title-shape-left me-4"></i>
-            <h3 class="headline"> مؤلفات الشيخ </h3>
-            <i class="icon icon-title-shape-right ms-4"></i>
-        </div> <!-- section-header -->
+        <div class="container mb-4">
+            <div class="title-with-end-btn">
+                <div class="section-header mb-5">
+                    <i class="icon icon-title-shape-left me-4"></i>
+                    <h3 class="headline"> مؤلفات الشيخ </h3>
+                    <i class="icon icon-title-shape-right ms-4"></i>
+                </div> <!-- section-header -->
+                <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
+            </div>
+        </div>
+
+
+
 
 
         <div class="container mb-4">
@@ -187,15 +189,11 @@
             </div>
         </div>
 
-        <div class="text-center">
+        <!-- <div class="text-center">
             <a href="#" class="btn btn-primary"> مشاهدة المزيد </a>
-        </div>
+        </div> -->
 
     </section> <!-- books -->
-
-
-
-
 
     <section id="visuals" class="section py-5 bg-gray-light">
 
@@ -261,30 +259,6 @@
         </div>
 
     </section> <!-- visuals -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <section id="most-reads" class="section mb-5 py-5">
 
@@ -355,23 +329,6 @@
 
     </section> <!-- most-reads -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <section id="explanations" class="section pb-5">
 
         <div class="container mb-4">
@@ -437,8 +394,6 @@
 
     </section> <!-- explanations -->
 
-
-
     <section id="quotes" class="section pb-5">
 
         <div class="container mb-4">
@@ -496,27 +451,6 @@
 
 
     </section> <!-- quotes -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <section id="fans" class="section py-5 bg-gray-light">
 
@@ -582,10 +516,6 @@
         </div>
 
     </section> <!-- fans -->
-
-
-
-
 
     <section id="gallery" class="section bg-secondary py-5">
 
