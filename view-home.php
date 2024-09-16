@@ -149,6 +149,71 @@
 
     </section> <!-- legacy -->
 
+
+
+
+
+
+
+
+
+
+
+    <section id="banner" class="section py-5">
+
+
+
+        <div class="container mb-4">
+
+
+
+            <div class="co-swiper-slider mb-5">
+                <div class="swiper-button-prev banner-button-prev">
+                    <i class="icon icon-arrow-left"></i>
+                </div>
+                <div class="swiper-button-next banner-button-next">
+                    <i class="icon icon-arrow-right"></i>
+                </div>
+
+                <div class="swiper banner-swiper">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content">
+                                <img src="assets/images/banner.jpg" class="img-fluid w-100" style="border-radius: 20px;">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content">
+                                <img src="assets/images/banner.jpg" class="img-fluid w-100" style="border-radius: 20px;">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content">
+                                <img src="assets/images/banner.jpg" class="img-fluid w-100" style="border-radius: 20px;">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content">
+                                <img src="assets/images/banner.jpg" class="img-fluid w-100" style="border-radius: 20px;">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div> <!-- co-swiper-slider -->
+
+        </div> <!-- container -->
+
+    </section> <!-- banner -->
+
+
     <section id="books" class="section py-5">
 
         <div class="container mb-4">
@@ -158,36 +223,76 @@
                     <h3 class="headline"> مؤلفات الشيخ </h3>
                     <i class="icon icon-title-shape-right ms-4"></i>
                 </div> <!-- section-header -->
-                <a href="#" class="color-secondary end-btn"> مشاهدة المزيد </a>
             </div>
         </div>
-
 
 
 
 
         <div class="container mb-4">
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <?php @include "./shared-html/book-card.html"; ?>
+
+
+
+            <div class="co-swiper-slider mb-5">
+                <div class="swiper-button-prev books-button-prev">
+                    <i class="icon icon-arrow-left"></i>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <?php @include "./shared-html/book-card.html"; ?>
+                <div class="swiper-button-next books-button-next">
+                    <i class="icon icon-arrow-right"></i>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <?php @include "./shared-html/book-card.html"; ?>
+
+                <div class="swiper books-swiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/book-card.html"; ?>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/book-card.html"; ?>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/book-card.html"; ?>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/book-card.html"; ?>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content ">
+                                <?php @include "./shared-html/book-card.html"; ?>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <?php @include "./shared-html/book-card.html"; ?>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <?php @include "./shared-html/book-card.html"; ?>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <?php @include "./shared-html/book-card.html"; ?>
-                </div>
+            </div> <!-- co-swiper-slider -->
+
+
+            <div class="text-center">
+                <a href="#" class="btn btn-primary"> مشاهدة المزيد </a>
             </div>
-        </div>
+
+
+
+        </div> <!-- container -->
+
+
+
+
+
+
 
         <!-- <div class="text-center">
             <a href="#" class="btn btn-primary"> مشاهدة المزيد </a>

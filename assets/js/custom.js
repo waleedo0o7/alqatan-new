@@ -1,5 +1,6 @@
 $(function () {
     initVisualsSlider();
+    initBooksSlider();
     initMostReadsSlider();
     initExplanationsSlider();
     initPartnersSlider();
@@ -7,18 +8,13 @@ $(function () {
     NewsSlider();
     initTestimonialsSlider();
     initAchievementsSlider();
-
     showMobileMenu();
     closeMobileMenu();
     initQuotesSlider();
-
-
-
     initFansSlider();
 
+    initBannerSlider();
 
-
-    
 });
 
 
@@ -36,18 +32,55 @@ function initVisualsSlider() {
             prevEl: '.visuals-button-prev',
         },
 
-        breakpoints: { 
+        breakpoints: {
             768: {
-                slidesPerView: 2, 
+                slidesPerView: 2,
             },
             1200: {
-                slidesPerView: 3, 
+                slidesPerView: 3,
             },
         }
     });
 }
 
 
+function initBooksSlider() {
+    const swiper = new Swiper('.books-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.books-button-next',
+            prevEl: '.books-button-prev',
+        },
+
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            },
+            1200: {
+                slidesPerView: 3,
+            },
+        }
+    });
+}
+
+
+
+function initBannerSlider() {
+    const swiper = new Swiper('.banner-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.banner-button-next',
+            prevEl: '.banner-button-prev',
+        },
+
+    });
+}
 
 
 
@@ -63,12 +96,12 @@ function initFansSlider() {
             prevEl: '.fans-button-prev',
         },
 
-        breakpoints: { 
+        breakpoints: {
             768: {
-                slidesPerView: 2, 
+                slidesPerView: 2,
             },
             1200: {
-                slidesPerView: 3, 
+                slidesPerView: 3,
             },
         }
     });
@@ -88,7 +121,7 @@ function initMostReadsSlider() {
             nextEl: '.most-reads-button-next',
             prevEl: '.most-reads-button-prev',
         },
-        breakpoints: { 
+        breakpoints: {
             768: {
                 slidesPerView: 2,
                 spaceBetween: 10,
@@ -111,7 +144,7 @@ function initExplanationsSlider() {
             nextEl: '.explanations-button-next',
             prevEl: '.explanations-button-prev',
         },
-        breakpoints: { 
+        breakpoints: {
             768: {
                 slidesPerView: 2,
                 spaceBetween: 10,
@@ -124,7 +157,7 @@ function initExplanationsSlider() {
     });
 }
 
-function initQuotesSlider() { 
+function initQuotesSlider() {
     const swiper = new Swiper('.quotes-swiper', {
         direction: 'horizontal',
         loop: true,
@@ -134,7 +167,7 @@ function initQuotesSlider() {
             nextEl: '.quotes-button-next',
             prevEl: '.quotes-button-prev',
         },
-        breakpoints: { 
+        breakpoints: {
             768: {
                 slidesPerView: 1,
                 spaceBetween: 10,
@@ -159,7 +192,7 @@ function initPartnersSlider() {
             prevEl: '.partners-button-prev',
         },
 
-        breakpoints: { 
+        breakpoints: {
             768: {
                 slidesPerView: 3,
                 spaceBetween: 10,
@@ -188,7 +221,7 @@ function initGallerySlider() {
             prevEl: '.gallery-button-prev',
         },
 
-        breakpoints: { 
+        breakpoints: {
             768: {
                 slidesPerView: 2,
                 spaceBetween: 10,
@@ -269,7 +302,7 @@ function initAchievementsSlider() {
             prevEl: '.achievements-button-prev',
         },
 
-        breakpoints: { 
+        breakpoints: {
             768: {
                 slidesPerView: 2,
                 spaceBetween: 10,
