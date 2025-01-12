@@ -477,6 +477,9 @@ body {
 .social-media-links-colored .link.twitter {
   background: #50aaf0;
 }
+.social-media-links-colored .link.x-twitter {
+  background: #000000;
+}
 .social-media-links-colored .link.whatsapp {
   background: #29a61a;
 }
@@ -571,6 +574,9 @@ body {
 .co-video-card .video-card * {
   position: relative;
   z-index: 1;
+}
+.co-video-card.reel {
+  max-height: unset;
 }
 .co-video-card.reel .video-card {
   height: 660px;
@@ -811,6 +817,12 @@ body {
   flex-direction: column;
   padding: 0 10px;
 }
+.co-sound-card .co-details .title {
+  margin-bottom: 5px !important;
+}
+.co-sound-card .co-details .date {
+  margin-bottom: 5px;
+}
 .co-sound-card .co-actions {
   display: flex;
   justify-content: center;
@@ -991,7 +1003,7 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   display: inline-flex;
   text-shadow: 0 0 5px #000;
   color: #fff;
-  margin-inline-end: 5px;
+  margin-inline-end: 3px;
 }
 .into-section .co-nav-menu .nav-menu a.menu-link.active, .into-section .co-nav-menu .nav-menu a.menu-link:hover {
   background-color: var(--color-primary);
@@ -1144,7 +1156,7 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
 .new-slider-card-lg img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 .new-slider-card-lg .title {
   position: absolute;
@@ -1256,6 +1268,28 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   padding: 0;
 }
 
+.co-input-with-btn {
+  position: relative;
+}
+.co-input-with-btn input.form-control.search {
+  padding: 3px 6px;
+}
+.co-input-with-btn .button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 8px;
+  width: 33px;
+  height: 34px;
+  font-size: 13px;
+  background-color: transparent;
+}
+
+html[dir=rtl] .co-input-with-btn .button {
+  right: unset;
+  left: 0;
+}
+
 .into-section .open-mobile-menu {
   display: none;
 }
@@ -1265,7 +1299,7 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
 
 @media all and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1250px;
   }
 }
 @media all and (max-width: 1200px) {

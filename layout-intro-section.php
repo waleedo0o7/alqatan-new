@@ -1,12 +1,23 @@
 <div class="into-section">
 
+
     <div class="co-top-bar bg-primary py-2">
         <div class="container">
 
+
             <div class="top-bar-content d-flex justify-content-between align-items-center">
 
-                <div class="start-content">
-                    <p class="date m-0"> السبت, 29 أبريل 2023 - 9 شوال 1444 هـ </p>
+                <div class="start-content d-flex justify-content-between w-100">
+                    <p class="date m-0"> السبت 11-يناير-2025 - 11 رجب ، 1446 </p>
+
+                    <div class="d-flex">
+                        <div class="form-group co-input-with-btn mx-2 mb-0 d-none d-lg-flex">
+                            <input type="text" class="form-control search" placeholder="بحث">
+                            <button class="btn btn-action button"><i class="fa fa-search"></i></button>
+                        </div>
+
+                        <a href="https://al-qattan.net/login" class="text-dark">تسجيل الدخول</a>
+                    </div>
                 </div>
 
                 <div class="end-content">
@@ -15,10 +26,10 @@
                         <i class="fa fa-bars"></i>
                     </a>
 
-
                 </div>
 
             </div>
+
 
         </div>
     </div> <!-- top-bar -->
@@ -95,10 +106,6 @@
 
     </div>co-nav-menu -->
 
-
-
-
-
     <div class="co-nav-menu">
 
         <div class="container">
@@ -123,7 +130,15 @@
 
                 <li class="menu-item"><a href="https://al-qattan.net/media?type=lecture" class="menu-link "> محاضرات و دروس </a></li>
 
-                <li class="menu-item"><a href="https://al-qattan.net/media?type=visual" class="menu-link ">مرئيات</a></li>
+                <li class="menu-item has-sub-menu">
+                    <a href="view-visuals.php" class="menu-link"> مرئيات </a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="view-reals.php" class="submenu-link"> ريلز </a>
+                        </li>
+                    </ul>
+                </li>
 
                 <li class="menu-item"><a href="https://al-qattan.net/media?type=podcast" class="menu-link ">لقاءات إذاعية</a></li>
 
@@ -134,11 +149,13 @@
                 <li class="menu-item"><a href="https://al-qattan.net/media?type=post" class="menu-link ">كويت الخير </a></li>
 
 
+                <li class="menu-item"><a href="https://al-qattan.net/media?type=post" class="menu-link "> أحباب الشيخ </a></li>
 
-                
-                <li class="menu-item"><a href="https://al-qattan.net/media?type=post" class="menu-link ">   أحباب الشيخ   </a></li>
 
-                
+
+                <li class="menu-item"><a href="#" class="menu-link "> بحث </a></li>
+
+
                 <div class="close-mobile-menu">
                     <i class="fa fa-times"></i>
                 </div>

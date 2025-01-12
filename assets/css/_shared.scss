@@ -80,6 +80,10 @@ body {
         &.twitter {
             background: #50aaf0;
         }
+        
+        &.x-twitter {
+            background: #000000;
+        }
 
         &.whatsapp {
             background: #29a61a;
@@ -196,8 +200,10 @@ body {
         }
     }
 
-    &.reel{
-        .video-card{
+    &.reel {
+        max-height: unset;
+
+        .video-card {
             height: 660px;
         }
 
@@ -351,7 +357,7 @@ body {
 
 
 .co-custom-taps .tab-pane {
-    .col-md-7{
+    .col-md-7 {
         padding: 30px;
         font-size: 18px;
     }
@@ -417,6 +423,7 @@ body {
 
 .co-achievements-card {
     font-family: simplified;
+
     .co-image {
         img {
             width: 100%;
@@ -440,8 +447,8 @@ body {
         border-bottom: 0px solid transparent;
     }
 
-    .co-details{
-        p{
+    .co-details {
+        p {
             font-family: simplified;
         }
     }
@@ -479,6 +486,14 @@ body {
         align-items: flex-start;
         flex-direction: column;
         padding: 0 10px;
+
+        .title {
+            margin-bottom: 5px !important;
+        }
+
+        .date {
+            margin-bottom: 5px;
+        }
     }
 
     .co-actions {
@@ -493,10 +508,11 @@ body {
             align-items: center;
             flex-direction: column;
 
-            i{
+            i {
                 font-size: 34px;
             }
-            .text{
+
+            .text {
                 font-size: 18px;
                 margin-bottom: 5px;
             }
@@ -504,12 +520,12 @@ body {
     }
 
 
-    .co-video-card{
+    .co-video-card {
         width: 210px;
         height: 100px;
         margin-inline-start: 10px;
 
-        .video-card{
+        .video-card {
             height: 120px;
             font-size: 24px;
         }

@@ -144,7 +144,7 @@
                 display: inline-flex;
                 text-shadow: 0 0 5px #000;
                 color: #fff;
-                margin-inline-end: 5px;
+                margin-inline-end: 3px;
 
                 &.active,
                 &:hover {
@@ -316,7 +316,8 @@
             line-height: 1;
             margin-bottom: 10px !important;
         }
-        .date{
+
+        .date {
             margin: 0;
         }
     }
@@ -330,7 +331,7 @@
     img {
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: fill;
     }
 
     .title {
@@ -419,8 +420,8 @@
     padding: 10px;
     color: #FFF;
 
-    &:hover{
-        background-color:  var(--color-primary);
+    &:hover {
+        background-color: var(--color-primary);
     }
 }
 
@@ -460,6 +461,31 @@
     padding: 0;
 }
 
+
+
+
+.co-input-with-btn {
+    position: relative;
+    input.form-control.search {
+        padding: 3px 6px;
+    }
+
+    .button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 8px;
+        width: 33px;
+        height: 34px;
+        font-size: 13px;
+        background-color: transparent;
+    }
+}
+
+html[dir=rtl] .co-input-with-btn .button {
+    right: unset;
+    left: 0;
+}
 
 
 
