@@ -4,15 +4,18 @@
 
 <main>
 
-    <div class="container">
+    <div class="py-5 mb-5 search-results-header bg-gray-light">
 
-        <div class="section-header mb-2 mt-5  mb-4">
-            <i class="icon icon-title-shape-left me-4"></i>
-            <h3 class="headline"> نتائج البحث عن : <span class="bold search-word"> شروط الحج </span> </h3>
-            <i class="icon icon-title-shape-right ms-4"></i>
+        <div class="col-md-6 m-auto">
+            <h2 class="text-center mb-3"> نتائج البحث عن " فلسطين " </h2>
+            <div class="form-group co-input-with-btn mb-0">
+                <input type="text" class="form-control search bg-white" placeholder="بحث" value="فلسطين">
+                <a href="video-list.php" class="btn btn-primary action-btn button"> بحث </a>
+            </div>
         </div>
+    </div>
 
-
+    <div class="container">
 
         <div class="tap-buttons-wrapper mb-5">
 
@@ -44,27 +47,6 @@
             </div>
 
         </div><!-- tap-content-wrapper -->
-
-
-
-
-        <br /><br /><br /><br />
-        <br /><br /><br /><br />
-        <br /><br /><br /><br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
 </main>

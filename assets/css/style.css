@@ -656,7 +656,6 @@ body {
 }
 
 .co-one-category {
-  border-bottom: 1px solid var(--color-gray);
   padding-top: 40px;
 }
 .co-one-category:first-child {
@@ -1268,13 +1267,13 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   padding: 0;
 }
 
-.co-input-with-btn {
+.co-top-bar .co-input-with-btn {
   position: relative;
 }
-.co-input-with-btn input.form-control.search {
+.co-top-bar .co-input-with-btn input.form-control.search {
   padding: 3px 6px;
 }
-.co-input-with-btn .button {
+.co-top-bar .co-input-with-btn .button {
   position: absolute;
   top: 0;
   right: 0;
@@ -1283,6 +1282,24 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
   height: 34px;
   font-size: 13px;
   background-color: transparent;
+}
+
+.search-results-header .co-input-with-btn {
+  position: relative;
+}
+.search-results-header .co-input-with-btn .button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 8px;
+  width: 75px;
+  border: none !important;
+  height: 38px;
+  padding: 5px;
+}
+.search-results-header .co-input-with-btn .button:hover {
+  background-color: var(--color-primary-dark);
+  color: #FFF;
 }
 
 html[dir=rtl] .co-input-with-btn .button {
@@ -1330,6 +1347,18 @@ html[dir=rtl] .btn-group .btn:last-child {
   color: #fff !important;
   background-color: var(--color-secondary-dark) !important;
   border-color: var(--color-secondary-dark) !important;
+}
+
+.drawer {
+  position: fixed;
+  z-index: 9999;
+  top: 200px;
+  left: -204px;
+  transition: all 0.3s ease-in-out;
+}
+.drawer:hover {
+  transition: all 0.3s ease-in-out;
+  left: -30px;
 }
 
 .into-section .open-mobile-menu {

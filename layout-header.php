@@ -37,3 +37,10 @@
 
 
 <body>
+
+
+    <div class="drawer">
+        <a target="_blank" href="#">
+            <img src="assets/images/mugtama.png">
+        </a>
+    </div>

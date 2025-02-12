@@ -34,15 +34,6 @@
                         <?php @include "./shared-html/video-reels-card.html"; ?>
                     </div>
 
-
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <?php @include "./shared-html/video-reels-card.html"; ?>
-                    </div>
-
-
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <?php @include "./shared-html/video-reels-card.html"; ?>
-                    </div>
                 </div>
             </div> <!-- co-one-category -->
 
