@@ -6,7 +6,7 @@
 
     <div class="container">
 
-        <div class="section-header mb-2 mt-5">
+        <div class="section-header mb-2 mt-5  mb-4">
             <i class="icon icon-title-shape-left me-4"></i>
             <h3 class="headline"> نتائج البحث عن : <span class="bold search-word"> شروط الحج </span> </h3>
             <i class="icon icon-title-shape-right ms-4"></i>
@@ -14,139 +14,56 @@
 
 
 
-        <div class="co-one-category">
+        <div class="tap-buttons-wrapper mb-5">
 
-            <div class="d-flex justify-content-center align-items-center mb-4">
-                <div class="section-header section-header-bg-secondary section-header-sm">
-                    <i class="icon icon-title-shape-left me-4"></i>
-                    <h4 class="headline"> مؤلفات الشيخ </h4>
-                    <i class="icon icon-title-shape-right ms-4"></i>
-                </div>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <a href="#" class="btn btn-outline-primary ajax-data active" data-related-wrapper="articles-wrapper"> المقالات </a>
+                <a href="#" class="btn btn-outline-primary ajax-data" data-related-wrapper="visuals-wrapper"> مرئيات </a>
+                <a href="#" class="btn btn-outline-primary ajax-data" data-related-wrapper="infographics-wrapper"> انفوجرافيك </a>
+                <a href="#" class="btn btn-outline-primary ajax-data" data-related-wrapper="caricatures-wrapper"> الكاريكاتير </a>
             </div>
 
-            <div class="row mb-5">
-                <?php foreach (range(1, 3) as $i) { ?>
-                    <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-                <?php } ?>
-            </div>
+        </div>
 
-        </div> <!-- co-one-category -->
+        <div class="tap-content-wrapper">
 
-        <div class="co-one-category">
+            <div class="result-section-wrapper">
 
-            <div class="d-flex justify-content-center align-items-center mb-4">
-                <div class="section-header section-header-bg-secondary section-header-sm">
-                    <i class="icon icon-title-shape-left me-4"></i>
-                    <h4 class="headline"> مرئيات </h4>
-                    <i class="icon icon-title-shape-right ms-4"></i>
-                </div>
-            </div>
 
-            <div class="row mb-5">
-                <?php foreach (range(1, 3) as $i) { ?>
-                    <div class="col-md-6 col-xl-4 mb-4">
-                        <?php @include "./shared-html/video-card.html"; ?>
+                <div class="co-one-category">
+
+                    <div class="row mb-5">
+                        <?php foreach (range(1, 3) as $i) { ?>
+                            <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+                        <?php } ?>
                     </div>
-                <?php } ?>
+
+                </div> <!-- co-one-category -->
+
+
             </div>
 
-        </div> <!-- co-one-category -->
+        </div><!-- tap-content-wrapper -->
 
-        <div class="co-one-category">
 
-            <div class="d-flex justify-content-center align-items-center mb-4">
-                <div class="section-header section-header-bg-secondary section-header-sm">
-                    <i class="icon icon-title-shape-left me-4"></i>
-                    <h4 class="headline"> لقاءات إذاعية </h4>
-                    <i class="icon icon-title-shape-right ms-4"></i>
-                </div>
-            </div>
 
-            <div class="row mb-5">
-                <?php foreach (range(1, 3) as $i) { ?>
-                    <div class="col-md-6 col-xl-4 mb-4">
-                        <?php @include "./shared-html/video-card.html"; ?>
-                    </div>
-                <?php } ?>
-            </div>
 
-        </div> <!-- co-one-category -->
+        <br /><br /><br /><br />
+        <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-        <div class="co-one-category">
 
-            <div class="d-flex justify-content-center align-items-center mb-4">
-                <div class="section-header section-header-bg-secondary section-header-sm">
-                    <i class="icon icon-title-shape-left me-4"></i>
-                    <h4 class="headline"> مقاطع عن الأقصى </h4>
-                    <i class="icon icon-title-shape-right ms-4"></i>
-                </div>
-            </div>
 
-            <div class="row mb-5">
-                <?php foreach (range(1, 3) as $i) { ?>
-                    <div class="col-md-6 col-xl-4 mb-4">
-                        <?php @include "./shared-html/video-card.html"; ?>
-                    </div>
-                <?php } ?>
-            </div>
 
-        </div> <!-- co-one-category -->
 
-        <div class="co-one-category">
 
-            <div class="d-flex justify-content-center align-items-center mb-4">
-                <div class="section-header section-header-bg-secondary section-header-sm">
-                    <i class="icon icon-title-shape-left me-4"></i>
-                    <h4 class="headline"> شروحات علميه </h4>
-                    <i class="icon icon-title-shape-right ms-4"></i>
-                </div>
-            </div>
 
-            <div class="row mb-5">
-                <?php foreach (range(1, 3) as $i) { ?>
-                    <div class="col-md-6 col-xl-4 mb-4">
-                        <?php @include "./shared-html/video-card.html"; ?>
-                    </div>
-                <?php } ?>
-            </div>
 
-        </div> <!-- co-one-category -->
 
-        <div class="co-one-category">
 
-            <div class="d-flex justify-content-center align-items-center mb-4">
-                <div class="section-header section-header-bg-secondary section-header-sm">
-                    <i class="icon icon-title-shape-left me-4"></i>
-                    <h4 class="headline"> خطب منبريه </h4>
-                    <i class="icon icon-title-shape-right ms-4"></i>
-                </div>
-            </div>
 
-            <div class="row mb-5">
-                <?php foreach (range(1, 3) as $i) { ?>
-                    <div class="col-md-12 mb-4"><?php @include "./shared-html/sound-card.html"; ?></div>
-                <?php } ?>
-            </div>
 
-        </div> <!-- co-one-category -->
 
-        <div class="co-one-category">
-
-            <div class="d-flex justify-content-center align-items-center mb-4">
-                <div class="section-header section-header-bg-secondary section-header-sm">
-                    <i class="icon icon-title-shape-left me-4"></i>
-                    <h4 class="headline"> محاضرات و دروس </h4>
-                    <i class="icon icon-title-shape-right ms-4"></i>
-                </div>
-            </div>
-
-            <div class="row mb-5">
-                <?php foreach (range(1, 3) as $i) { ?>
-                    <div class="col-md-12 mb-4"><?php @include "./shared-html/sound-card-with-thumbnail.html"; ?></div>
-                <?php } ?>
-            </div>
-
-        </div> <!-- co-one-category -->
 
 
     </div>

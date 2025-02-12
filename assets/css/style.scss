@@ -466,6 +466,7 @@
 
 .co-input-with-btn {
     position: relative;
+
     input.form-control.search {
         padding: 3px 6px;
     }
@@ -482,11 +483,73 @@
     }
 }
 
-html[dir=rtl] .co-input-with-btn .button {
-    right: unset;
-    left: 0;
+html[dir=rtl] {
+
+    .co-input-with-btn .button {
+        right: unset;
+        left: 0;
+    }
+
+
+    .btn-group {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .btn {
+            border-radius: 0px !important;
+            min-width: 130px;
+
+            &:first-child {
+                border-radius: 0 10px 10px 0 !important
+            }
+
+            &:last-child {
+                border-radius: 10px 0 0 10px !important
+            }
+        }
+
+    }
+
 }
 
+
+.btn-outline-primary {
+    color: var(--color-secondary);
+    background-color: #FFF;
+    border-color: var(--color-secondary);
+
+    &:hover{
+        background-color: var(--color-secondary-dark);
+        border-color: var(--color-secondary-dark);
+
+    }
+}
+
+.tap-buttons-wrapper {
+
+    .btn {
+        @media (max-width : 992px) {
+            min-width: unset !important;
+        }
+    }
+
+    .btn-outline-primary {
+        &.active {
+            color: #FFF !important;
+            background-color: var(--color-secondary) !important;
+            border-color: var(--color-secondary) !important;
+
+            &:hover {
+                color: #fff !important;
+                background-color: var(--color-secondary-dark) !important;
+                border-color: var(--color-secondary-dark) !important;
+            }
+        }
+    }
+
+}
 
 
 @import "_media";

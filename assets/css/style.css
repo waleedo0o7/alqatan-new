@@ -579,7 +579,7 @@ body {
   max-height: unset;
 }
 .co-video-card.reel .video-card {
-  height: 660px;
+  height: 400px;
 }
 
 .video-js {
@@ -1288,6 +1288,48 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
 html[dir=rtl] .co-input-with-btn .button {
   right: unset;
   left: 0;
+}
+html[dir=rtl] .btn-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html[dir=rtl] .btn-group .btn {
+  border-radius: 0px !important;
+  min-width: 130px;
+}
+html[dir=rtl] .btn-group .btn:first-child {
+  border-radius: 0 10px 10px 0 !important;
+}
+html[dir=rtl] .btn-group .btn:last-child {
+  border-radius: 10px 0 0 10px !important;
+}
+
+.btn-outline-primary {
+  color: var(--color-secondary);
+  background-color: #FFF;
+  border-color: var(--color-secondary);
+}
+.btn-outline-primary:hover {
+  background-color: var(--color-secondary-dark);
+  border-color: var(--color-secondary-dark);
+}
+
+@media (max-width: 992px) {
+  .tap-buttons-wrapper .btn {
+    min-width: unset !important;
+  }
+}
+.tap-buttons-wrapper .btn-outline-primary.active {
+  color: #FFF !important;
+  background-color: var(--color-secondary) !important;
+  border-color: var(--color-secondary) !important;
+}
+.tap-buttons-wrapper .btn-outline-primary.active:hover {
+  color: #fff !important;
+  background-color: var(--color-secondary-dark) !important;
+  border-color: var(--color-secondary-dark) !important;
 }
 
 .into-section .open-mobile-menu {
