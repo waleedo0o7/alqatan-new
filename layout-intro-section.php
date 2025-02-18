@@ -151,14 +151,21 @@
 
                 <li class="menu-item"><a href="https://al-qattan.net/media?type=post" class="menu-link "> أحباب الشيخ </a></li>
 
-
-
-                <li class="menu-item"><a href="#" class="menu-link "> بحث </a></li>
-
-
                 <div class="close-mobile-menu">
                     <i class="fa fa-times"></i>
                 </div>
+
+                <div class="mobile-search d-flex d-xl-none">
+
+                    <form method="get" action="https://al-qattan.net/search" class="m-0">
+                        <div class="form-group co-input-with-btn mx-2 mb-0">
+                            <input type="text" name="search" class="form-control search" placeholder="بحث" value="">
+                            <button type="submit" class="btn btn-action button"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form><!-- end of form -->
+
+                </div>
+
 
             </ul>
 

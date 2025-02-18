@@ -1351,7 +1351,7 @@ html[dir=rtl] .btn-group .btn:last-child {
 
 .drawer {
   position: fixed;
-  z-index: 9999;
+  z-index: 99;
   top: 200px;
   left: -204px;
   transition: all 0.3s ease-in-out;
@@ -1391,6 +1391,31 @@ html[dir=rtl] .btn-group .btn:last-child {
     margin: 10px;
     padding: 15px;
     color: #fff;
+  }
+  .into-section .co-nav-menu .mobile-search {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .into-section .co-nav-menu .mobile-search .form-group.co-input-with-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .into-section .co-nav-menu .mobile-search .form-group.co-input-with-btn button.btn {
+    width: 37px;
+    height: 37px;
+    min-width: 37px;
+    min-height: 37px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   #news .container .co-news-slider .news-slider .title-and-slider {
     display: none;

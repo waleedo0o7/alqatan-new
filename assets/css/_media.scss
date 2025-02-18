@@ -1,6 +1,7 @@
 .into-section {
     .open-mobile-menu {
         display: none;
+
         i {
             font-size: 24px;
         }
@@ -25,8 +26,10 @@
         .social-media-links-color-primary {
             bottom: 0;
         }
+
         .co-nav-menu {
             display: none;
+
             .close-mobile-menu {
                 display: block;
                 position: absolute;
@@ -35,6 +38,36 @@
                 margin: 10px;
                 padding: 15px;
                 color: #fff;
+            }
+
+            .mobile-search {
+                position: absolute;
+                bottom: 0;
+                left: 0; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 10px;
+
+                .form-group.co-input-with-btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+
+                    button.btn {
+                        width: 37px;
+                        height: 37px;
+                        min-width: 37px;
+                        min-height: 37px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+
+                }
+
             }
         }
     }
@@ -45,6 +78,7 @@
                 .title-and-slider {
                     display: none;
                 }
+
                 .swiper.swiper-news-slider {
                     width: 100%;
                 }
@@ -74,6 +108,7 @@
         .swiper-button-next {
             top: 80px;
         }
+
         .swiper-button-prev {
             top: 80px;
         }
@@ -92,9 +127,11 @@
         .swiper-button-next {
             margin-inline-end: -20px;
         }
+
         .swiper-button-prev {
             margin-inline-start: -20px;
         }
+
         &.arrows-down {
             .swiper-button-next {
                 font-size: 22px;
@@ -102,12 +139,14 @@
                 height: 50px;
                 bottom: -60px !important;
             }
+
             .swiper-button-prev {
                 font-size: 22px;
                 width: 50px;
                 height: 50px;
                 bottom: -60px !important;
             }
+
             .swiper-pagination-bullets {
                 justify-content: center;
                 margin: 0px;
@@ -117,6 +156,7 @@
 
     .co-sound-card {
         flex-wrap: wrap;
+
         .co-actions {
             width: 100%;
         }
@@ -124,6 +164,7 @@
 
     .title-with-end-btn {
         justify-content: space-between;
+
         .end-btn {
             position: relative;
             right: unset;
@@ -133,6 +174,7 @@
     .footer {
         background-size: auto 30%;
         background-repeat: repeat-y, repeat-y;
+
         .footer-links a {
             display: flex;
             width: 100%;
@@ -151,14 +193,17 @@
             max-width: unset;
         }
     }
+
     .co-news-slider .news-slider {
         height: 220px;
     }
+
     .section-header {
         .icon {
             margin: 0px !important;
             font-size: 42px;
         }
+
         .headline {
             font-size: 24px;
             margin: 0 10px;
@@ -166,5 +211,4 @@
     }
 }
 
-@media all and (max-width: 330px) {
-}
+@media all and (max-width: 330px) {}
